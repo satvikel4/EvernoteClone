@@ -1,0 +1,16 @@
+ionic start evernoteClone blank
+cd ./evernoteClone
+npm install firebase @angular/fire
+
+ionic g page pages/tabs
+ionic g page pages/favourites
+ionic g page pages/notebooks
+
+ionic g service services/notebook
+ionic g page pages/notebookCreateModal
+
+ionic g page pages/note
+
+ionic g page pages/notes
+
+npm i quill ngx-quill
